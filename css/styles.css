@@ -28,6 +28,7 @@ address {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .hidden {
@@ -71,6 +72,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -199,6 +201,9 @@ body {
   color: var(--second-color-text);
 }
 /* ============GALLERY============ */
+.gallery-container {
+  padding-bottom: 120px;
+}
 .gallery-title {
   font-size: 36px;
   line-height: 1.11;
@@ -329,12 +334,19 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color-text);
+  margin-bottom: 8px;
 }
 .products-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color-text);
+}
+
+.products-item-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 /* ============FOOTER============ */
 .footer {
